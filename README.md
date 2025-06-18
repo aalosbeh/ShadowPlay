@@ -331,23 +331,6 @@ python scripts/stress_test.py --concurrent 100 --duration 300
 python scripts/memory_profile.py --duration 600
 ```
 
-##  Documentation
-
-### Complete Documentation
-
-- **[Installation Guide](docs/installation.md)**: Detailed setup instructions
-- **[API Reference](docs/api.md)**: Complete API documentation
-- **[Configuration Guide](docs/configuration.md)**: Configuration options
-- **[Deployment Guide](docs/deployment.md)**: Production deployment
-- **[Developer Guide](docs/development.md)**: Contributing guidelines
-- **[Research Documentation](docs/research.md)**: Research methodology and results
-
-### Research Materials
-
-- **[Research Paper](main_enhanced.tex)**: Complete IEEE LaTeX source
-- **[Dataset Documentation](DATASET_DOCUMENTATION.md)**: Evaluation datasets
-- **[Research Contributions](RESEARCH_CONTRIBUTIONS.md)**: Novel contributions
-- **[Experimental Results](data/evaluation_results.json)**: Detailed results
 
 ### Development Setup
 
@@ -424,14 +407,6 @@ pre-commit install
 - **Security Research**: Framework for studying LLM security vulnerabilities
 - **Defense Development**: Platform for developing new defense mechanisms
 - **Benchmarking**: Standard evaluation framework for LLM security
-
-### Security Reports
-
-For security vulnerabilities, please email: [security@shadowplay-security.com](mailto:security@shadowplay-security.com)
-
-### Commercial Support
-
-Enterprise support and consulting available through [Shadowplay Security Inc.](https://shadowplay-security.com)
 
 ##  License
 
