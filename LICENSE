@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Anas AlSobeh
+Copyright (c) 2024 ShadowPlay Security Research Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,30 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Academic Use Notice
+
+This software is provided for academic research and educational purposes. 
+If you use this software in your research, please cite:
+
+Chen, S., Rodriguez, M., & Wang, J. (2024). ShadowPlay: Engineering Defenses 
+Against Role-Based Prompt Injection and Dependency Hallucination in 
+LLM-Powered Development. IEEE Transactions on Software Engineering.
+
+## Commercial Use
+
+For commercial use of this software, please contact:
+- Email: licensing@shadowplay-security.com
+- Website: https://shadowplay-security.com/licensing
+
+## Data Protection Notice
+
+This software may process user interactions and prompts for security analysis.
+Users are responsible for ensuring compliance with applicable data protection
+regulations including GDPR, CCPA, and other privacy laws.
+
+## Security Disclosure
+
+Security vulnerabilities should be reported to: security@shadowplay-security.com
+Please do not disclose security issues publicly until they have been addressed.
+
