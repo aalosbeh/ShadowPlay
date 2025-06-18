@@ -9,7 +9,7 @@ ShadowPlay is a cutting-edge security framework designed to protect Large Langua
 - **Production Ready**: Complete implementation with extensive documentation and testing
 - **Research Validated**: Comprehensive evaluation on 20,000+ attack scenarios
 
-## 📊 Performance Highlights
+## Performance Highlights
 
 | Metric | ShadowPlay | Best Baseline | Improvement |
 |--------|------------|---------------|-------------|
@@ -20,7 +20,7 @@ ShadowPlay is a cutting-edge security framework designed to protect Large Langua
 | False Positive Rate | **1.8%** | 7.7% | -5.9% |
 | Average Latency | **127ms** | 234ms | -46% |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -60,7 +60,7 @@ print(f"Risk Score: {result['risk_assessment']['risk_score']}")
 print(f"Threat Level: {result['risk_assessment']['threat_level']}")
 ```
 
-## 🏗️ Architecture Overview
+## 🏗 Architecture Overview
 
 ShadowPlay implements a sophisticated multi-layered defense architecture:
 
@@ -109,8 +109,6 @@ This repository accompanies our IEEE research paper:
   publisher={IEEE}
 }
 ```
-
-
 
 ##  Installation & Setup
 
