@@ -26,7 +26,7 @@ ShadowPlay is a cutting-edge security framework designed to protect Large Langua
 
 ```bash
 # Clone the repository
-git clone https://github.com/shadowplay-security/shadowplay.git
+git clone https://github.com/shadowplay.git
 cd shadowplay
 
 # Create virtual environment
