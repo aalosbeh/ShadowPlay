@@ -112,42 +112,16 @@ This repository accompanies our IEEE research paper:
 ```bibtex
 @article{chen2024shadowplay,
   title={ShadowPlay: Engineering Defenses Against Role-Based Prompt Injection and Dependency Hallucination in LLM-Powered Development},
-  author={Chen, Sarah and Rodriguez, Michael and Wang, Jennifer},
-  journal={IEEE Transactions on Software Engineering},
-  year={2024},
+  author={Anas Alsobeh, Zahraddeen Gwarzo, Amani Shatnawi},
+  journal={Submitted to Cyber-AI2025},
+  year={2025},
   publisher={IEEE}
 }
 ```
 
-## 📁 Repository Structure
 
-```
-shadowplay/
-├── 📄 main_enhanced.tex          # Complete IEEE LaTeX paper
-├── 📄 main.pdf                   # Compiled research paper
-├── 📁 code/                      # Complete Python implementation
-│   ├── shadowplay_core.py        # Core framework
-│   ├── dependency_verification.py
-│   ├── behavioral_monitoring.py
-│   ├── response_validation.py
-│   ├── shadowplay_orchestrator.py
-│   └── evaluation_harness.py
-├── 📁 figures/                   # Research figures and visualizations
-│   ├── architecture.png
-│   ├── performance_comparison.png
-│   ├── attack_detection_breakdown.png
-│   ├── threat_landscape_heatmap.png
-│   ├── roc_curves.png
-│   └── performance_over_time.png
-├── 📁 data/                      # Experimental data and results
-├── 📁 config/                    # Configuration files
-├── 📁 tests/                     # Comprehensive test suite
-├── 📁 docs/                      # Detailed documentation
-├── 📁 scripts/                   # Utility scripts
-└── 📁 k8s/                       # Kubernetes deployment manifests
-```
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -195,7 +169,7 @@ kubectl apply -f k8s/
 kubectl get pods -n shadowplay
 ```
 
-## 🔍 Threat Detection Capabilities
+##  Threat Detection Capabilities
 
 ### Role-Based Prompt Injection
 
@@ -300,7 +274,7 @@ See [Configuration Guide](docs/configuration.md) for detailed configuration opti
 - Performance tuning
 - Integration options
 
-## 🔐 Security Features
+##  Security Features
 
 ### Authentication & Authorization
 
@@ -323,7 +297,7 @@ See [Configuration Guide](docs/configuration.md) for detailed configuration opti
 - Performance monitoring
 - Security incident logging
 
-## 🧪 Testing & Evaluation
+##  Testing & Evaluation
 
 ### Running Tests
 
@@ -368,7 +342,7 @@ python scripts/stress_test.py --concurrent 100 --duration 300
 python scripts/memory_profile.py --duration 600
 ```
 
-## 📖 Documentation
+##  Documentation
 
 ### Complete Documentation
 
@@ -385,10 +359,6 @@ python scripts/memory_profile.py --duration 600
 - **[Dataset Documentation](DATASET_DOCUMENTATION.md)**: Evaluation datasets
 - **[Research Contributions](RESEARCH_CONTRIBUTIONS.md)**: Novel contributions
 - **[Experimental Results](data/evaluation_results.json)**: Detailed results
-
-## 🤝 Contributing
-
-We welcome contributions from the research and development community!
 
 ### Development Setup
 
@@ -424,10 +394,9 @@ pre-commit install
 - **Testing**: Minimum 90% code coverage
 - **Security**: Security review for all changes
 
-## 📊 Experimental Results
+## Experimental Results
 
 ### Detection Performance by Attack Type
-
 | Attack Type | Test Cases | Accuracy | Precision | Recall | F1-Score |
 |-------------|------------|----------|-----------|--------|----------|
 | Role Injection | 5,000 | 94.7% | 98.1% | 94.7% | 96.4% |
@@ -436,7 +405,6 @@ pre-commit install
 | **Overall** | **12,000** | **95.1%** | **97.2%** | **95.1%** | **96.1%** |
 
 ### Performance by Sophistication Level
-
 | Sophistication | Detection Rate | False Positive Rate | Avg Latency |
 |----------------|----------------|-------------------|-------------|
 | Basic | 98.2% | 0.8% | 89ms |
@@ -445,7 +413,6 @@ pre-commit install
 | Expert | 82.1% | 3.4% | 198ms |
 
 ### Scalability Results
-
 | Concurrent Users | Avg Latency | 95th Percentile | Throughput |
 |------------------|-------------|-----------------|------------|
 | 10 | 127ms | 189ms | 78 req/s |
@@ -453,57 +420,21 @@ pre-commit install
 | 100 | 167ms | 289ms | 598 req/s |
 | 500 | 234ms | 456ms | 2,140 req/s |
 
-## 🌟 Use Cases
 
 ### Development Environment Integration
-
 - **IDE Plugins**: Real-time threat detection in development environments
 - **CI/CD Pipelines**: Automated security scanning of AI-generated code
 - **Code Review**: Enhanced security review with AI assistance validation
 
 ### Enterprise Security
-
 - **SOC Integration**: Security operations center monitoring and alerting
 - **Compliance**: Regulatory compliance for AI-assisted development
 - **Risk Management**: Quantitative risk assessment for AI tool usage
 
 ### Research Applications
-
 - **Security Research**: Framework for studying LLM security vulnerabilities
 - **Defense Development**: Platform for developing new defense mechanisms
 - **Benchmarking**: Standard evaluation framework for LLM security
-
-## 🔮 Future Roadmap
-
-### Short Term (3-6 months)
-
-- [ ] Multi-language support (Spanish, French, German)
-- [ ] Enhanced IDE integrations (VS Code, IntelliJ, Vim)
-- [ ] Advanced behavioral analytics dashboard
-- [ ] Mobile app for security monitoring
-
-### Medium Term (6-12 months)
-
-- [ ] Multimodal threat detection (code + images + audio)
-- [ ] Federated learning for collaborative defense
-- [ ] Advanced adversarial robustness
-- [ ] Cloud-native deployment options
-
-### Long Term (12+ months)
-
-- [ ] Cross-platform LLM security framework
-- [ ] Automated defense adaptation
-- [ ] Integration with major cloud providers
-- [ ] Industry-specific security profiles
-
-## 📞 Support & Community
-
-### Getting Help
-
-- **Documentation**: [docs.shadowplay-security.com](https://docs.shadowplay-security.com)
-- **GitHub Issues**: [Report bugs and request features](https://github.com/shadowplay-security/shadowplay/issues)
-- **Community Forum**: [community.shadowplay-security.com](https://community.shadowplay-security.com)
-- **Stack Overflow**: Tag questions with `shadowplay-security`
 
 ### Security Reports
 
@@ -513,31 +444,13 @@ For security vulnerabilities, please email: [security@shadowplay-security.com](m
 
 Enterprise support and consulting available through [Shadowplay Security Inc.](https://shadowplay-security.com)
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Academic Use
 
-This research is freely available for academic and research purposes. Commercial use requires appropriate licensing.
+This research is freely available for academic and research purposes. 
 
-## 🙏 Acknowledgments
 
-- **MIT CSAIL** for research support and infrastructure
-- **UC Berkeley EECS** for collaborative research opportunities
-- **Carnegie Mellon SCS** for evaluation and validation support
-- **Anonymous reviewers** for valuable feedback and suggestions
-- **Development teams** who participated in evaluation studies
-- **Open source community** for foundational tools and libraries
-
-## 📈 Project Statistics
-
-![GitHub stars](https://img.shields.io/github/stars/shadowplay-security/shadowplay?style=social)
-![GitHub forks](https://img.shields.io/github/forks/shadowplay-security/shadowplay?style=social)
-![GitHub issues](https://img.shields.io/github/issues/shadowplay-security/shadowplay)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/shadowplay-security/shadowplay)
-
----
-
-**ShadowPlay** - Securing the future of AI-powered development, one prompt at a time. 🛡️✨
-
+**ShadowPlay** - Securing the future of AI-powered development, one prompt at a time. 🛡
