@@ -1,16 +1,7 @@
 # ShadowPlay: Engineering Defenses Against Role-Based Prompt Injection and Dependency Hallucination
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Tests](https://github.com/shadowplay-security/shadowplay/workflows/Tests/badge.svg)](https://github.com/shadowplay-security/shadowplay/actions)
-[![Coverage](https://codecov.io/gh/shadowplay-security/shadowplay/branch/main/graph/badge.svg)](https://codecov.io/gh/shadowplay-security/shadowplay)
-
-## 🛡️ Comprehensive Defense Framework for LLM-Powered Development
-
 ShadowPlay is a cutting-edge security framework designed to protect Large Language Model (LLM) powered development environments against sophisticated prompt injection and dependency hallucination attacks. This research implementation provides production-ready defenses with formal mathematical foundations and comprehensive empirical validation.
 
-### 🎯 Key Features
+### Key Features
 
 - **Multi-layered Defense Architecture**: Four integrated components providing comprehensive threat detection
 - **Real-time Analysis**: Sub-second response times suitable for production deployment
