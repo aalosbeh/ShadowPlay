@@ -60,7 +60,7 @@ print(f"Risk Score: {result['risk_assessment']['risk_score']}")
 print(f"Threat Level: {result['risk_assessment']['threat_level']}")
 ```
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 ShadowPlay implements a sophisticated multi-layered defense architecture:
 
@@ -83,7 +83,7 @@ ShadowPlay implements a sophisticated multi-layered defense architecture:
 3. **Behavioral Monitoring Module**: Anomaly detection for suspicious interaction patterns
 4. **Response Validation Layer**: Output analysis for security and quality assurance
 
-## 📚 Research Paper
+##  Research Paper
 
 This repository accompanies our IEEE research paper:
 
